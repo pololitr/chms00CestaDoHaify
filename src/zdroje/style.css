@@ -1,0 +1,126 @@
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;       
+}
+.group:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+body{
+    /*background: #cccccc;*/
+    font-family: Helevetica, Arial, sans-serif; 
+    line-height: 1.5em;
+    font-size: 14px;
+    background: url('09.jpg');
+    background-attachment: fixed;
+}
+
+#main-wrapper{
+    width: 80%;
+    margin: 0 auto;    
+}
+
+.mainHeader{
+    margin-top: 5%;
+    height: 150px;
+    background-position: 0 -220px;
+    background: #ffffff;
+    width: 100%;
+    opacity: 0.8;
+}
+#other{
+     text-align: center; 
+     padding-top: 50px;
+     height: 50px;
+     color: black;/*-------------------*/
+     font-size: 35px;
+     font-weight: bold;
+     line-height: 1.2em;
+}
+
+.mainContent{
+    width: 100%;
+    background: #ffffff;
+    float:left; 
+    padding:40px 20px;
+    opacity: 0.8;
+}
+.mainText{
+    background: white 50%;
+}
+.chapters group{
+    background: black;
+    
+}
+.mainFooter{
+    clear:both;
+    background:#7e9157;
+    text-align: center;
+    height: 10%;
+    margin-bottom: 5%;
+} 
+footer small{
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.thumbnail{
+    width:640px;
+    height: 412px ;  
+    float: top;
+    align-content: center;
+   
+    
+ 
+}
+.chapters{
+    clear:both;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+ 
+.chapters p{
+    padding: 10px 0 20px 0;   
+}    
+
+.chapters div{
+    overflow: hidden;
+}
+/*
+/* Media Queries*/
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+@media(max-width:768px){
+    #main-wrapper{
+        width:90%;
+    }
+    .chapters h1{
+       margin-top: 40px; 
+    }
+    header{
+        padding-bottom: 20px; 
+    }
+  
+ 
+    .chapters div{
+    overflow:visible;
+    padding-top: 20px;
+    }
+   
+    .mainContent{
+    width: 100%;
+    float:none;
+    }
+    .thumbnail{
+        padding-bottom: 20px;
+    }
+    .mainText{
+        float: none;
+    }
+ 
+}
